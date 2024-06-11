@@ -1,4 +1,4 @@
-let random = Math.floor(Math.random() * 100 + 1);
+let random = Math.floor(Math.random() * 200 + 1);
 let numero = ''
 let tentativas = 3
 let i = 2
