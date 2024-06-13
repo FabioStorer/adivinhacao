@@ -23,7 +23,7 @@ console.log('Ou Digite "Sair" para fechar o jogo da adivinhação.')
             console.log('Suas tentativas acabaram. Agora vou escolher um número diferente. Vamos lá?');
             console.log('O número aleatório era ' + random + '!');
             console.log('Se quiser parar de jogar, basta digitar "Sair".');
-            random = Math.floor(Math.random() * 100 + 1);
+            random = Math.floor(Math.random() * 200 + 1);
             tentativas = 3;
             i = 2;
         } else {
